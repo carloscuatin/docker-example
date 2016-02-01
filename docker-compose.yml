@@ -1,0 +1,5 @@
+api:
+  build: .
+  command: node index.js --restart=always
+  ports:
+    - "3000:3000"
